@@ -37,7 +37,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = 
+            bindings = <
             &kp LEFT                      &mkp LCLK         &mkp LCLK      &kp F21   &kp F22
 &kp UP   &kp DOWN &kp RIGHT               &mkp RCLK                       &kp F23      &kp F24
 &kp ESC    &kp CAPSLOCK  &kp C_PLAY &kp K_MUTE    &kp LBKT   &kp RBKT   &kp FSLH   &kp MINUS  &kp EQUAL &kp BACKSLASH
@@ -50,7 +50,7 @@
         };
 
         sym_layer {
-            bindings = 
+            bindings = <
         &kp LEFT                      &mkp LCLK         &mkp RCLK      &kp Y   &kp X
 &kp K_VOL_UP   &kp K_VOL_DN &kp RIGHT               &mkp RCLK                       &kp B      &kp A
 &kp C_AL_SCREENSAVER  &kp C_AC_PRINT &mkp C_PAUSE  &kp K_VOL_UP &none   &none   &none   &kp F11    &kp F12   &bootloader
@@ -63,7 +63,7 @@
         };
 
         upper_layer {
-            bindings = 
+            bindings = <
         &kp LEFT                      &mkp LCLK         &mkp RCLK      &kp Y   &kp X
 &kp UP   &kp DOWN &kp RIGHT               &mkp RCLK                       &kp B      &kp A
 &bt BT_CLR  &kp C_AC_PRINT &mkp C_PAUSE  &kp K_VOL_DN &none   &none   &none   &kp F11    &kp F12   &bootloader
